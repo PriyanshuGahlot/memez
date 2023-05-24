@@ -1,0 +1,38 @@
+button {
+    margin: 40px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Mynerve', cursive;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    background-color: #3d3d3d;
+    color: #ffffff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover {
+    background-color: #00b4ff;
+    transform: scale(1.05);
+}
+button:active {
+    background-color: #008be0;
+    transform: scale(0.95);
+} 
+.center{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+body{
+    font-family: 'Mynerve', cursive;
+    background-color: #252525;
+}
+img {
+    color: white;
+    border-radius: 5%;
+}
